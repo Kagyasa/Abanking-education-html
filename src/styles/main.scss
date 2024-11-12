@@ -1,0 +1,40 @@
+* {
+    background-color: #1E252B;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.firstbox {
+    display: flex;
+    gap: 16px;
+    padding: 24px;
+    align-items: center;
+    
+}
+
+.secondboxFirst {
+    margin-left: 100px;
+    color: gray;
+}
+.secondbox {
+    margin-left: 30px;
+    color: gray;
+}
+
+.thirdbox {
+    margin-left: 10s0px;
+    color: gray;
+}
+
+.imagebox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textbox {
+    display: flex;
+    padding-top: 30px;
+    color: white;
+    font-size: 150%;
+}
+
