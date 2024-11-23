@@ -1,0 +1,281 @@
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
+  \***************************************************************************************************************/
+body {
+  margin: 0;
+  background-color: #1E252B;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.5490196078);
+}
+body a {
+  margin: 0;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5490196078);
+}
+body button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.block1 {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: 24px;
+  padding-left: 110px;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.block1 .block1__logo {
+  display: flex;
+  margin-right: 257px;
+}
+.block1 .block1__logo .block1__logo-text {
+  display: block;
+  margin: 0;
+  margin-left: 16px;
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.8980392157);
+}
+.block1 .block1__menu {
+  margin: 0;
+  margin-right: 190px;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.block1 .block1__menu .block1__menu-item {
+  font-weight: 500;
+}
+.block1 .block1__menu .block1__menu-item a {
+  display: flex;
+  gap: 4px;
+}
+.block1 .block1__signup {
+  margin-left: 40px;
+  padding: 12px 28px;
+  background-color: #FF6E30;
+  color: #FDF5FF;
+  border-radius: 8px;
+}
+
+.block2 {
+  width: 1440px;
+  margin: 60px auto 0px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(assets/eeecaa3adba1530e3687.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+.block2 .block2__content {
+  margin: 45px 0px 110px 108px;
+}
+.block2 .block2__content .block2__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  color: rgba(255, 255, 255, 0.8980392157);
+  span-color: #FF6E30;
+}
+.block2 .block2__content .block2__description {
+  display: block;
+  margin: 0;
+  margin-bottom: 60px;
+}
+.block2 .block2__content .block2__search {
+  display: flex;
+  width: fit-content;
+  padding: 8px 0;
+  background-color: #283036;
+  border-radius: 15px;
+}
+.block2 .block2__content .block2__search .block2__search-icon {
+  margin-left: 18px;
+  margin-right: 13px;
+  width: 20px;
+}
+.block2 .block2__content .block2__search .block2__search-input {
+  all: unset;
+  width: 202px;
+  margin-right: 99px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.3803921569);
+}
+.block2 .block2__content .block2__search .block2__search-button {
+  padding: 12px 36px;
+  margin-right: 11px;
+  border-radius: 8px;
+  background-color: #FF6E30;
+  color: #FFFFFF;
+}
+.block2 .block2__social {
+  margin-left: 108px;
+  padding: 8px 0;
+  display: flex;
+  gap: 38px;
+}
+
+.block3 {
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: 200px;
+  box-sizing: border-box;
+}
+.block3 .block3__title {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  color: rgba(255, 255, 255, 0.8980392157);
+}
+.block3 .block3__description {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  font-weight: 500;
+  text-align: center;
+}
+.block3 .block3__list {
+  width: 1224px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 80px;
+}
+.block3 .block3__load-button {
+  display: flex;
+  margin: 0 auto;
+  padding: 16px 38px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: transparent;
+  color: #FF6E30;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  border-radius: 8px;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 32px;
+  border-radius: 15px;
+}
+.card .card__header {
+  display: flex;
+  margin-bottom: 30px;
+}
+.card .card__header .card__logo {
+  display: block;
+  margin-right: 30px;
+}
+.card .card__header .card__title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.7803921569);
+}
+.card .card__header .card__price {
+  display: block;
+  line-height: 28px;
+  color: rgba(255, 165, 55, 0.5490196078);
+}
+.card .card__description {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.card .card__actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card .card__actions .card__like {
+  padding: 8px;
+  border-radius: 8px;
+}
+.card .card__actions .card__like img {
+  display: block;
+}
+.card .card__actions .card__add {
+  padding: 7px 6px 5px;
+  border-radius: 8px;
+}
+.card .card__actions .card__add img {
+  display: block;
+}
+.card .card__actions .card__button {
+  margin-left: auto;
+  padding: 10px 36px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.5490196078);
+}
+
+.card_active {
+  margin: 2px;
+  background-color: rgba(40, 48, 54, 0.6);
+  backdrop-filter: blur();
+}
+.card_active .card__price.card__price_active {
+  color: #FFA537;
+}
+.card_active .card__like_active {
+  background-color: #283036;
+}
+.card_active .card__button.card__button_active {
+  background-color: #FF6E30;
+  color: #FFFFFF;
+}
+
+.block4 {
+  width: 1224px;
+  margin: 200px auto 48px;
+  display: flex;
+}
+.block4 .block4__content {
+  margin: 20px;
+  border-radius: 24px;
+  backdrop-filter: blur(50px);
+  background-color: rgba(44, 53, 61, 0.2);
+  padding: 55px 82px;
+  box-sizing: border-box;
+}
+.block4 .block4__content .block4__title {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 55px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.block4 .block4__content .block4__logos {
+  display: flex;
+  justify-content: space-between;
+}
+.block4 .block4__content .block4__logo {
+  margin: auto 30px;
+}
